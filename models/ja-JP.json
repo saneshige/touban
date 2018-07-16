@@ -17,7 +17,7 @@
                     "samples": []
                 },
                 {
-                    "name": "OnePersonIntent",
+                    "name": "TobanIntent",
                     "slots": [],
                     "samples": [
                         "当番決めて",

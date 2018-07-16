@@ -40,6 +40,9 @@ var handlers = {
     'LaunchRequest': function () {
         this.emit('SayToban');
     },
+    'TobanIntent': function () {
+        this.emit('SayToban');
+    },
     'SayToban': function () {
         this.emit(":tell", getToban());
     },
@@ -73,7 +76,7 @@ var handlers = {
     }
 };
 
-const persons = ['たかとし', 'えつこ'];
+const persons = ['たろう', 'はなこ'];
 const title = 'さん';
 
 // 名前を取得
