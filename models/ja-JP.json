@@ -1,0 +1,35 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "当番",
+            "types": [],
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [] 
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "OnePersonIntent",
+                    "slots": [],
+                    "samples": [
+                        "当番決めて",
+                        "当番きめて",
+                        "担当決めて",
+                        "担当きめて",
+                        "誰がやるかきめて",
+                        "誰かお願い",
+                        "誰かよろしく"
+                    ]
+                }
+            ]
+        }
+    }
+}
